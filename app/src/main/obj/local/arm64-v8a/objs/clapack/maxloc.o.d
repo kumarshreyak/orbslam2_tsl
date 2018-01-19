@@ -1,0 +1,7 @@
+obj/local/arm64-v8a/objs/clapack/maxloc.o: \
+ jni/Thirdparty/clapack/SRC/maxloc.c jni/Thirdparty/clapack/SRC/f2c.h \
+ jni/Thirdparty/clapack/SRC/../INCLUDE/f2c.h
+
+jni/Thirdparty/clapack/SRC/f2c.h:
+
+jni/Thirdparty/clapack/SRC/../INCLUDE/f2c.h:

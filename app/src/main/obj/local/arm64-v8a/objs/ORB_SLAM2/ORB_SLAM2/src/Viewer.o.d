@@ -1,0 +1,1108 @@
+obj/local/arm64-v8a/objs/ORB_SLAM2/ORB_SLAM2/src/Viewer.o: \
+ jni/ORB_SLAM2/src/Viewer.cc jni/ORB_SLAM2/include/Viewer.h \
+ jni/ORB_SLAM2/include/FrameDrawer.h jni/ORB_SLAM2/include/Tracking.h \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/core/core.hpp \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/core.hpp \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/core/cvdef.h \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/core/hal/interface.h \
+ /home/kumarshreyak/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/cstddef \
+ /home/kumarshreyak/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/cstdint \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/core/cv_cpu_dispatch.h \
+ /home/kumarshreyak/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/array \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/core/version.hpp \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/core/base.hpp \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/opencv_modules.hpp \
+ /home/kumarshreyak/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/climits \
+ /home/kumarshreyak/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/algorithm \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/core/cvstd.hpp \
+ /home/kumarshreyak/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/cstring \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/core/ptr.inl.hpp \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/core/neon_utils.hpp \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/core/vsx_utils.hpp \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/core/traits.hpp \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/core/matx.hpp \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/core/saturate.hpp \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/core/fast_math.hpp \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/core/types.hpp \
+ /home/kumarshreyak/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/cfloat \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/core/mat.hpp \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/core/bufferpool.hpp \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/core/mat.inl.hpp \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/core/persistence.hpp \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/core/operations.hpp \
+ /home/kumarshreyak/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/cstdio \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/core/cvstd.inl.hpp \
+ /home/kumarshreyak/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/complex \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/core/utility.hpp \
+ /home/kumarshreyak/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/functional \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/core/core_c.h \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/core/types_c.h \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/core/optim.hpp \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/core/ovx.hpp \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/core/cvdef.h \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/features2d/features2d.hpp \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/features2d.hpp \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/flann/miniflann.hpp \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/flann/defines.h \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/flann/config.h \
+ jni/ORB_SLAM2/include/Viewer.h jni/ORB_SLAM2/include/Map.h \
+ jni/ORB_SLAM2/include/MapPoint.h jni/ORB_SLAM2/include/KeyFrame.h \
+ jni/Thirdparty/DBoW2/include/DBoW2/BowVector.h \
+ /home/kumarshreyak/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/iostream \
+ /home/kumarshreyak/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/map \
+ jni/Thirdparty/DBoW2/include/DBoW2/FeatureVector.h \
+ jni/Thirdparty/DBoW2/include/DBoW2/BowVector.h \
+ jni/ORB_SLAM2/include/ORBVocabulary.h \
+ jni/Thirdparty/DBoW2/include/DBoW2/FORB.h \
+ jni/Thirdparty/DBoW2/include/DBoW2/FClass.h \
+ jni/Thirdparty/DBoW2/include/DBoW2/TemplatedVocabulary.h \
+ /home/kumarshreyak/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/cassert \
+ /home/kumarshreyak/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/fstream \
+ jni/Thirdparty/DBoW2/include/DBoW2/FeatureVector.h \
+ jni/Thirdparty/DBoW2/include/DBoW2/ScoringObject.h \
+ jni/Thirdparty/DBoW2/include/DBoW2/../DUtils/Random.h \
+ jni/ORB_SLAM2/include/ORBextractor.h \
+ /home/kumarshreyak/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/list \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv/cv.h \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/imgproc/imgproc_c.h \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/imgproc/types_c.h \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/photo/photo_c.h \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/video/tracking_c.h \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/objdetect/objdetect_c.h \
+ /home/kumarshreyak/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/deque \
+ jni/ORB_SLAM2/include/Frame.h \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/opencv.hpp \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/calib3d.hpp \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/core/affine.hpp \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/calib3d/calib3d_c.h \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/flann.hpp \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/flann/flann_base.hpp \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/flann/general.h \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/flann/matrix.h \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/flann/params.h \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/flann/any.h \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/flann/defines.h \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/flann/saving.h \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/flann/nn_index.h \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/flann/result_set.h \
+ /home/kumarshreyak/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/set \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/flann/all_indices.h \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/flann/kdtree_index.h \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/flann/dynamic_bitset.h \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/flann/dist.h \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/flann/heap.h \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/flann/allocator.h \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/flann/random.h \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/flann/kdtree_single_index.h \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/flann/kmeans_index.h \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/flann/logger.h \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/flann/composite_index.h \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/flann/linear_index.h \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/flann/hierarchical_clustering_index.h \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/flann/lsh_index.h \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/flann/lsh_table.h \
+ /home/kumarshreyak/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/iomanip \
+ /home/kumarshreyak/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/unordered_map \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/flann/autotuned_index.h \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/flann/ground_truth.h \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/flann/index_testing.h \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/flann/timer.h \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/flann/sampling.h \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/highgui.hpp \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/imgcodecs.hpp \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/videoio.hpp \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/highgui/highgui_c.h \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/imgcodecs/imgcodecs_c.h \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/videoio/videoio_c.h \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/imgproc.hpp \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/ml.hpp \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/ml/ml.inl.hpp \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/objdetect.hpp \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/objdetect/detection_based_tracker.hpp \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/photo.hpp \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/shape.hpp \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/shape/emdL1.hpp \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/shape/shape_transformer.hpp \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/shape/hist_cost.hpp \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/shape/shape_distance.hpp \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/stitching.hpp \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/stitching/warpers.hpp \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/stitching/detail/warpers.hpp \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/core/cuda.hpp \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/core/cuda_types.hpp \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/core/cuda.inl.hpp \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/stitching/detail/warpers_inl.hpp \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/stitching/detail/warpers.hpp \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/stitching/detail/matchers.hpp \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/stitching/detail/motion_estimators.hpp \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/stitching/detail/matchers.hpp \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/stitching/detail/util.hpp \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/stitching/detail/util_inl.hpp \
+ /home/kumarshreyak/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/queue \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/stitching/detail/camera.hpp \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/stitching/detail/exposure_compensate.hpp \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/stitching/detail/seam_finders.hpp \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/stitching/detail/blenders.hpp \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/stitching/detail/camera.hpp \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/superres.hpp \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/superres/optical_flow.hpp \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/video.hpp \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/video/tracking.hpp \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/video/background_segm.hpp \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/videostab.hpp \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/videostab/stabilizer.hpp \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/videostab/global_motion.hpp \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/videostab/optical_flow.hpp \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/videostab/motion_core.hpp \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/videostab/outlier_rejection.hpp \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/videostab/motion_stabilizing.hpp \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/videostab/frame_source.hpp \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/videostab/log.hpp \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/videostab/inpainting.hpp \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/videostab/fast_marching.hpp \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/videostab/fast_marching_inl.hpp \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/videostab/deblurring.hpp \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/videostab/wobble_suppression.hpp \
+ /home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/videostab/ring_buffer.hpp \
+ jni/ORB_SLAM2/include/KeyFrameDatabase.h \
+ /home/kumarshreyak/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/mutex \
+ jni/ORB_SLAM2/include/LocalMapping.h jni/ORB_SLAM2/include/LoopClosing.h \
+ /home/kumarshreyak/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/thread \
+ jni/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h \
+ jni/Thirdparty/g2o/g2o/types/../core/base_vertex.h \
+ jni/Thirdparty/g2o/g2o/types/../core/optimizable_graph.h \
+ jni/Thirdparty/g2o/g2o/types/../core/openmp_mutex.h \
+ jni/Thirdparty/g2o/g2o/types/../core/../../config.h \
+ jni/Thirdparty/g2o/g2o/types/../core/hyper_graph.h \
+ /home/kumarshreyak/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/bitset \
+ /home/kumarshreyak/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/tr1/unordered_map \
+ jni/Thirdparty/g2o/g2o/types/../core/parameter.h \
+ jni/Thirdparty/g2o/g2o/types/../core/parameter_container.h \
+ jni/Thirdparty/g2o/g2o/types/../core/jacobian_workspace.h \
+ jni/Thirdparty/eigen3/Eigen/Core \
+ jni/Thirdparty/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h \
+ jni/Thirdparty/eigen3/Eigen/src/Core/util/Macros.h \
+ jni/Thirdparty/eigen3/Eigen/src/Core/util/MKL_support.h \
+ jni/Thirdparty/eigen3/Eigen/src/Core/util/Constants.h \
+ jni/Thirdparty/eigen3/Eigen/src/Core/util/Meta.h \
+ jni/Thirdparty/eigen3/Eigen/src/Core/util/ForwardDeclarations.h \
+ jni/Thirdparty/eigen3/Eigen/src/Core/util/StaticAssert.h \
+ jni/Thirdparty/eigen3/Eigen/src/Core/util/XprHelper.h \
+ jni/Thirdparty/eigen3/Eigen/src/Core/util/Memory.h \
+ jni/Thirdparty/eigen3/Eigen/src/Core/NumTraits.h \
+ jni/Thirdparty/eigen3/Eigen/src/Core/MathFunctions.h \
+ jni/Thirdparty/eigen3/Eigen/src/Core/SpecialFunctions.h \
+ jni/Thirdparty/eigen3/Eigen/src/Core/GenericPacketMath.h \
+ jni/Thirdparty/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h \
+ jni/Thirdparty/eigen3/Eigen/src/Core/arch/NEON/MathFunctions.h \
+ jni/Thirdparty/eigen3/Eigen/src/Core/arch/NEON/Complex.h \
+ jni/Thirdparty/eigen3/Eigen/src/Core/arch/Default/Settings.h \
+ jni/Thirdparty/eigen3/Eigen/src/Core/functors/BinaryFunctors.h \
+ jni/Thirdparty/eigen3/Eigen/src/Core/functors/UnaryFunctors.h \
+ jni/Thirdparty/eigen3/Eigen/src/Core/functors/NullaryFunctors.h \
+ jni/Thirdparty/eigen3/Eigen/src/Core/functors/StlFunctors.h \
+ jni/Thirdparty/eigen3/Eigen/src/Core/functors/AssignmentFunctors.h \
+ jni/Thirdparty/eigen3/Eigen/src/Core/DenseCoeffsBase.h \
+ jni/Thirdparty/eigen3/Eigen/src/Core/DenseBase.h \
+ jni/Thirdparty/eigen3/Eigen/src/Core/../plugins/BlockMethods.h \
+ jni/Thirdparty/eigen3/Eigen/src/Core/MatrixBase.h \
+ jni/Thirdparty/eigen3/Eigen/src/Core/../plugins/CommonCwiseUnaryOps.h \
+ jni/Thirdparty/eigen3/Eigen/src/Core/../plugins/CommonCwiseBinaryOps.h \
+ jni/Thirdparty/eigen3/Eigen/src/Core/../plugins/MatrixCwiseUnaryOps.h \
+ jni/Thirdparty/eigen3/Eigen/src/Core/../plugins/MatrixCwiseBinaryOps.h \
+ jni/Thirdparty/eigen3/Eigen/src/Core/EigenBase.h \
+ jni/Thirdparty/eigen3/Eigen/src/Core/Product.h \
+ jni/Thirdparty/eigen3/Eigen/src/Core/CoreEvaluators.h \
+ jni/Thirdparty/eigen3/Eigen/src/Core/AssignEvaluator.h \
+ jni/Thirdparty/eigen3/Eigen/src/Core/Assign.h \
+ jni/Thirdparty/eigen3/Eigen/src/Core/ArrayBase.h \
+ jni/Thirdparty/eigen3/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h \
+ jni/Thirdparty/eigen3/Eigen/src/Core/../plugins/ArrayCwiseBinaryOps.h \
+ jni/Thirdparty/eigen3/Eigen/src/Core/util/BlasUtil.h \
+ jni/Thirdparty/eigen3/Eigen/src/Core/DenseStorage.h \
+ jni/Thirdparty/eigen3/Eigen/src/Core/NestByValue.h \
+ jni/Thirdparty/eigen3/Eigen/src/Core/ReturnByValue.h \
+ jni/Thirdparty/eigen3/Eigen/src/Core/NoAlias.h \
+ jni/Thirdparty/eigen3/Eigen/src/Core/PlainObjectBase.h \
+ jni/Thirdparty/eigen3/Eigen/src/Core/Matrix.h \
+ jni/Thirdparty/eigen3/Eigen/src/Core/Array.h \
+ jni/Thirdparty/eigen3/Eigen/src/Core/CwiseBinaryOp.h \
+ jni/Thirdparty/eigen3/Eigen/src/Core/CwiseUnaryOp.h \
+ jni/Thirdparty/eigen3/Eigen/src/Core/CwiseNullaryOp.h \
+ jni/Thirdparty/eigen3/Eigen/src/Core/CwiseUnaryView.h \
+ jni/Thirdparty/eigen3/Eigen/src/Core/SelfCwiseBinaryOp.h \
+ jni/Thirdparty/eigen3/Eigen/src/Core/Dot.h \
+ jni/Thirdparty/eigen3/Eigen/src/Core/StableNorm.h \
+ jni/Thirdparty/eigen3/Eigen/src/Core/Stride.h \
+ jni/Thirdparty/eigen3/Eigen/src/Core/MapBase.h \
+ jni/Thirdparty/eigen3/Eigen/src/Core/Map.h \
+ jni/Thirdparty/eigen3/Eigen/src/Core/Ref.h \
+ jni/Thirdparty/eigen3/Eigen/src/Core/Block.h \
+ jni/Thirdparty/eigen3/Eigen/src/Core/VectorBlock.h \
+ jni/Thirdparty/eigen3/Eigen/src/Core/Transpose.h \
+ jni/Thirdparty/eigen3/Eigen/src/Core/DiagonalMatrix.h \
+ jni/Thirdparty/eigen3/Eigen/src/Core/Diagonal.h \
+ jni/Thirdparty/eigen3/Eigen/src/Core/DiagonalProduct.h \
+ jni/Thirdparty/eigen3/Eigen/src/Core/Redux.h \
+ jni/Thirdparty/eigen3/Eigen/src/Core/Visitor.h \
+ jni/Thirdparty/eigen3/Eigen/src/Core/Fuzzy.h \
+ jni/Thirdparty/eigen3/Eigen/src/Core/IO.h \
+ jni/Thirdparty/eigen3/Eigen/src/Core/Swap.h \
+ jni/Thirdparty/eigen3/Eigen/src/Core/CommaInitializer.h \
+ jni/Thirdparty/eigen3/Eigen/src/Core/GeneralProduct.h \
+ jni/Thirdparty/eigen3/Eigen/src/Core/Solve.h \
+ jni/Thirdparty/eigen3/Eigen/src/Core/Inverse.h \
+ jni/Thirdparty/eigen3/Eigen/src/Core/SolverBase.h \
+ jni/Thirdparty/eigen3/Eigen/src/Core/PermutationMatrix.h \
+ jni/Thirdparty/eigen3/Eigen/src/Core/Transpositions.h \
+ jni/Thirdparty/eigen3/Eigen/src/Core/TriangularMatrix.h \
+ jni/Thirdparty/eigen3/Eigen/src/Core/SelfAdjointView.h \
+ jni/Thirdparty/eigen3/Eigen/src/Core/products/GeneralBlockPanelKernel.h \
+ jni/Thirdparty/eigen3/Eigen/src/Core/products/Parallelizer.h \
+ jni/Thirdparty/eigen3/Eigen/src/Core/ProductEvaluators.h \
+ jni/Thirdparty/eigen3/Eigen/src/Core/products/GeneralMatrixVector.h \
+ jni/Thirdparty/eigen3/Eigen/src/Core/products/GeneralMatrixMatrix.h \
+ jni/Thirdparty/eigen3/Eigen/src/Core/SolveTriangular.h \
+ jni/Thirdparty/eigen3/Eigen/src/Core/products/GeneralMatrixMatrixTriangular.h \
+ jni/Thirdparty/eigen3/Eigen/src/Core/products/SelfadjointMatrixVector.h \
+ jni/Thirdparty/eigen3/Eigen/src/Core/products/SelfadjointMatrixMatrix.h \
+ jni/Thirdparty/eigen3/Eigen/src/Core/products/SelfadjointProduct.h \
+ jni/Thirdparty/eigen3/Eigen/src/Core/products/SelfadjointRank2Update.h \
+ jni/Thirdparty/eigen3/Eigen/src/Core/products/TriangularMatrixVector.h \
+ jni/Thirdparty/eigen3/Eigen/src/Core/products/TriangularMatrixMatrix.h \
+ jni/Thirdparty/eigen3/Eigen/src/Core/products/TriangularSolverMatrix.h \
+ jni/Thirdparty/eigen3/Eigen/src/Core/products/TriangularSolverVector.h \
+ jni/Thirdparty/eigen3/Eigen/src/Core/BandMatrix.h \
+ jni/Thirdparty/eigen3/Eigen/src/Core/CoreIterators.h \
+ jni/Thirdparty/eigen3/Eigen/src/Core/BooleanRedux.h \
+ jni/Thirdparty/eigen3/Eigen/src/Core/Select.h \
+ jni/Thirdparty/eigen3/Eigen/src/Core/VectorwiseOp.h \
+ jni/Thirdparty/eigen3/Eigen/src/Core/Random.h \
+ jni/Thirdparty/eigen3/Eigen/src/Core/Replicate.h \
+ jni/Thirdparty/eigen3/Eigen/src/Core/Reverse.h \
+ jni/Thirdparty/eigen3/Eigen/src/Core/ArrayWrapper.h \
+ jni/Thirdparty/eigen3/Eigen/src/Core/GlobalFunctions.h \
+ jni/Thirdparty/eigen3/Eigen/src/Core/util/ReenableStupidWarnings.h \
+ jni/Thirdparty/eigen3/Eigen/StdVector jni/Thirdparty/eigen3/Eigen/Core \
+ jni/Thirdparty/eigen3/Eigen/src/StlSupport/StdVector.h \
+ jni/Thirdparty/eigen3/Eigen/src/StlSupport/details.h \
+ jni/Thirdparty/g2o/g2o/types/../core/../stuff/macros.h \
+ jni/Thirdparty/g2o/g2o/types/../core/creators.h \
+ jni/Thirdparty/eigen3/Eigen/Dense jni/Thirdparty/eigen3/Eigen/LU \
+ jni/Thirdparty/eigen3/Eigen/src/misc/Kernel.h \
+ jni/Thirdparty/eigen3/Eigen/src/misc/Image.h \
+ jni/Thirdparty/eigen3/Eigen/src/LU/FullPivLU.h \
+ jni/Thirdparty/eigen3/Eigen/src/LU/PartialPivLU.h \
+ jni/Thirdparty/eigen3/Eigen/src/LU/Determinant.h \
+ jni/Thirdparty/eigen3/Eigen/src/LU/InverseImpl.h \
+ jni/Thirdparty/eigen3/Eigen/Cholesky \
+ jni/Thirdparty/eigen3/Eigen/src/Cholesky/LLT.h \
+ jni/Thirdparty/eigen3/Eigen/src/Cholesky/LDLT.h \
+ jni/Thirdparty/eigen3/Eigen/QR jni/Thirdparty/eigen3/Eigen/Jacobi \
+ jni/Thirdparty/eigen3/Eigen/src/Jacobi/Jacobi.h \
+ jni/Thirdparty/eigen3/Eigen/Householder \
+ jni/Thirdparty/eigen3/Eigen/src/Householder/Householder.h \
+ jni/Thirdparty/eigen3/Eigen/src/Householder/HouseholderSequence.h \
+ jni/Thirdparty/eigen3/Eigen/src/Householder/BlockHouseholder.h \
+ jni/Thirdparty/eigen3/Eigen/src/QR/HouseholderQR.h \
+ jni/Thirdparty/eigen3/Eigen/src/QR/FullPivHouseholderQR.h \
+ jni/Thirdparty/eigen3/Eigen/src/QR/ColPivHouseholderQR.h \
+ jni/Thirdparty/eigen3/Eigen/SVD \
+ jni/Thirdparty/eigen3/Eigen/src/SVD/UpperBidiagonalization.h \
+ jni/Thirdparty/eigen3/Eigen/src/SVD/SVDBase.h \
+ jni/Thirdparty/eigen3/Eigen/src/SVD/JacobiSVD.h \
+ jni/Thirdparty/eigen3/Eigen/src/SVD/BDCSVD.h \
+ jni/Thirdparty/eigen3/Eigen/Geometry \
+ jni/Thirdparty/eigen3/Eigen/src/Geometry/OrthoMethods.h \
+ jni/Thirdparty/eigen3/Eigen/src/Geometry/EulerAngles.h \
+ jni/Thirdparty/eigen3/Eigen/src/Geometry/Homogeneous.h \
+ jni/Thirdparty/eigen3/Eigen/src/Geometry/RotationBase.h \
+ jni/Thirdparty/eigen3/Eigen/src/Geometry/Rotation2D.h \
+ jni/Thirdparty/eigen3/Eigen/src/Geometry/Quaternion.h \
+ jni/Thirdparty/eigen3/Eigen/src/Geometry/AngleAxis.h \
+ jni/Thirdparty/eigen3/Eigen/src/Geometry/Transform.h \
+ jni/Thirdparty/eigen3/Eigen/src/Geometry/Translation.h \
+ jni/Thirdparty/eigen3/Eigen/src/Geometry/Scaling.h \
+ jni/Thirdparty/eigen3/Eigen/src/Geometry/Hyperplane.h \
+ jni/Thirdparty/eigen3/Eigen/src/Geometry/ParametrizedLine.h \
+ jni/Thirdparty/eigen3/Eigen/src/Geometry/AlignedBox.h \
+ jni/Thirdparty/eigen3/Eigen/src/Geometry/Umeyama.h \
+ jni/Thirdparty/eigen3/Eigen/Eigenvalues \
+ jni/Thirdparty/eigen3/Eigen/src/Eigenvalues/Tridiagonalization.h \
+ jni/Thirdparty/eigen3/Eigen/src/Eigenvalues/RealSchur.h \
+ jni/Thirdparty/eigen3/Eigen/src/Eigenvalues/./HessenbergDecomposition.h \
+ jni/Thirdparty/eigen3/Eigen/src/Eigenvalues/EigenSolver.h \
+ jni/Thirdparty/eigen3/Eigen/src/Eigenvalues/./RealSchur.h \
+ jni/Thirdparty/eigen3/Eigen/src/Eigenvalues/SelfAdjointEigenSolver.h \
+ jni/Thirdparty/eigen3/Eigen/src/Eigenvalues/./Tridiagonalization.h \
+ jni/Thirdparty/eigen3/Eigen/src/Eigenvalues/GeneralizedSelfAdjointEigenSolver.h \
+ jni/Thirdparty/eigen3/Eigen/src/Eigenvalues/HessenbergDecomposition.h \
+ jni/Thirdparty/eigen3/Eigen/src/Eigenvalues/ComplexSchur.h \
+ jni/Thirdparty/eigen3/Eigen/src/Eigenvalues/ComplexEigenSolver.h \
+ jni/Thirdparty/eigen3/Eigen/src/Eigenvalues/./ComplexSchur.h \
+ jni/Thirdparty/eigen3/Eigen/src/Eigenvalues/RealQZ.h \
+ jni/Thirdparty/eigen3/Eigen/src/Eigenvalues/GeneralizedEigenSolver.h \
+ jni/Thirdparty/eigen3/Eigen/src/Eigenvalues/./RealQZ.h \
+ jni/Thirdparty/eigen3/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h \
+ jni/Thirdparty/eigen3/Eigen/Cholesky \
+ /home/kumarshreyak/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/stack \
+ jni/Thirdparty/g2o/g2o/types/../core/base_vertex.hpp \
+ jni/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h \
+ jni/Thirdparty/g2o/g2o/types/../core/base_edge.h \
+ jni/Thirdparty/g2o/g2o/types/../core/robust_kernel.h \
+ /home/kumarshreyak/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/tr1/memory \
+ jni/Thirdparty/g2o/g2o/types/../core/base_binary_edge.hpp \
+ jni/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h \
+ jni/Thirdparty/g2o/g2o/types/../core/base_unary_edge.h \
+ jni/Thirdparty/g2o/g2o/types/../core/base_unary_edge.hpp \
+ jni/Thirdparty/g2o/g2o/types/se3_ops.h \
+ jni/Thirdparty/eigen3/Eigen/Geometry \
+ jni/Thirdparty/g2o/g2o/types/se3_ops.hpp \
+ jni/Thirdparty/g2o/g2o/types/se3quat.h \
+ jni/Thirdparty/g2o/g2o/types/types_sba.h \
+ jni/Thirdparty/g2o/g2o/types/sim3.h jni/ORB_SLAM2/include/Initializer.h \
+ jni/ORB_SLAM2/include/MapDrawer.h jni/ORB_SLAM2/include/System.h
+
+jni/ORB_SLAM2/include/Viewer.h:
+
+jni/ORB_SLAM2/include/FrameDrawer.h:
+
+jni/ORB_SLAM2/include/Tracking.h:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/core/core.hpp:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/core.hpp:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/core/cvdef.h:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/core/hal/interface.h:
+
+/home/kumarshreyak/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/cstddef:
+
+/home/kumarshreyak/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/cstdint:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/core/cv_cpu_dispatch.h:
+
+/home/kumarshreyak/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/array:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/core/version.hpp:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/core/base.hpp:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/opencv_modules.hpp:
+
+/home/kumarshreyak/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/climits:
+
+/home/kumarshreyak/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/algorithm:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/core/cvstd.hpp:
+
+/home/kumarshreyak/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/cstring:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/core/ptr.inl.hpp:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/core/neon_utils.hpp:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/core/vsx_utils.hpp:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/core/traits.hpp:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/core/matx.hpp:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/core/saturate.hpp:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/core/fast_math.hpp:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/core/types.hpp:
+
+/home/kumarshreyak/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/cfloat:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/core/mat.hpp:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/core/bufferpool.hpp:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/core/mat.inl.hpp:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/core/persistence.hpp:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/core/operations.hpp:
+
+/home/kumarshreyak/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/cstdio:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/core/cvstd.inl.hpp:
+
+/home/kumarshreyak/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/complex:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/core/utility.hpp:
+
+/home/kumarshreyak/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/functional:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/core/core_c.h:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/core/types_c.h:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/core/optim.hpp:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/core/ovx.hpp:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/core/cvdef.h:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/features2d/features2d.hpp:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/features2d.hpp:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/flann/miniflann.hpp:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/flann/defines.h:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/flann/config.h:
+
+jni/ORB_SLAM2/include/Viewer.h:
+
+jni/ORB_SLAM2/include/Map.h:
+
+jni/ORB_SLAM2/include/MapPoint.h:
+
+jni/ORB_SLAM2/include/KeyFrame.h:
+
+jni/Thirdparty/DBoW2/include/DBoW2/BowVector.h:
+
+/home/kumarshreyak/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/iostream:
+
+/home/kumarshreyak/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/map:
+
+jni/Thirdparty/DBoW2/include/DBoW2/FeatureVector.h:
+
+jni/Thirdparty/DBoW2/include/DBoW2/BowVector.h:
+
+jni/ORB_SLAM2/include/ORBVocabulary.h:
+
+jni/Thirdparty/DBoW2/include/DBoW2/FORB.h:
+
+jni/Thirdparty/DBoW2/include/DBoW2/FClass.h:
+
+jni/Thirdparty/DBoW2/include/DBoW2/TemplatedVocabulary.h:
+
+/home/kumarshreyak/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/cassert:
+
+/home/kumarshreyak/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/fstream:
+
+jni/Thirdparty/DBoW2/include/DBoW2/FeatureVector.h:
+
+jni/Thirdparty/DBoW2/include/DBoW2/ScoringObject.h:
+
+jni/Thirdparty/DBoW2/include/DBoW2/../DUtils/Random.h:
+
+jni/ORB_SLAM2/include/ORBextractor.h:
+
+/home/kumarshreyak/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/list:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv/cv.h:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/imgproc/imgproc_c.h:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/imgproc/types_c.h:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/photo/photo_c.h:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/video/tracking_c.h:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/objdetect/objdetect_c.h:
+
+/home/kumarshreyak/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/deque:
+
+jni/ORB_SLAM2/include/Frame.h:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/opencv.hpp:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/calib3d.hpp:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/core/affine.hpp:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/calib3d/calib3d_c.h:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/flann.hpp:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/flann/flann_base.hpp:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/flann/general.h:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/flann/matrix.h:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/flann/params.h:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/flann/any.h:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/flann/defines.h:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/flann/saving.h:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/flann/nn_index.h:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/flann/result_set.h:
+
+/home/kumarshreyak/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/set:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/flann/all_indices.h:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/flann/kdtree_index.h:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/flann/dynamic_bitset.h:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/flann/dist.h:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/flann/heap.h:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/flann/allocator.h:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/flann/random.h:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/flann/kdtree_single_index.h:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/flann/kmeans_index.h:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/flann/logger.h:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/flann/composite_index.h:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/flann/linear_index.h:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/flann/hierarchical_clustering_index.h:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/flann/lsh_index.h:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/flann/lsh_table.h:
+
+/home/kumarshreyak/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/iomanip:
+
+/home/kumarshreyak/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/unordered_map:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/flann/autotuned_index.h:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/flann/ground_truth.h:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/flann/index_testing.h:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/flann/timer.h:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/flann/sampling.h:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/highgui.hpp:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/imgcodecs.hpp:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/videoio.hpp:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/highgui/highgui_c.h:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/imgcodecs/imgcodecs_c.h:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/videoio/videoio_c.h:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/imgproc.hpp:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/ml.hpp:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/ml/ml.inl.hpp:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/objdetect.hpp:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/objdetect/detection_based_tracker.hpp:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/photo.hpp:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/shape.hpp:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/shape/emdL1.hpp:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/shape/shape_transformer.hpp:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/shape/hist_cost.hpp:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/shape/shape_distance.hpp:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/stitching.hpp:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/stitching/warpers.hpp:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/stitching/detail/warpers.hpp:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/core/cuda.hpp:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/core/cuda_types.hpp:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/core/cuda.inl.hpp:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/stitching/detail/warpers_inl.hpp:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/stitching/detail/warpers.hpp:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/stitching/detail/matchers.hpp:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/stitching/detail/motion_estimators.hpp:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/stitching/detail/matchers.hpp:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/stitching/detail/util.hpp:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/stitching/detail/util_inl.hpp:
+
+/home/kumarshreyak/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/queue:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/stitching/detail/camera.hpp:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/stitching/detail/exposure_compensate.hpp:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/stitching/detail/seam_finders.hpp:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/stitching/detail/blenders.hpp:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/stitching/detail/camera.hpp:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/superres.hpp:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/superres/optical_flow.hpp:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/video.hpp:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/video/tracking.hpp:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/video/background_segm.hpp:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/videostab.hpp:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/videostab/stabilizer.hpp:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/videostab/global_motion.hpp:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/videostab/optical_flow.hpp:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/videostab/motion_core.hpp:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/videostab/outlier_rejection.hpp:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/videostab/motion_stabilizing.hpp:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/videostab/frame_source.hpp:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/videostab/log.hpp:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/videostab/inpainting.hpp:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/videostab/fast_marching.hpp:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/videostab/fast_marching_inl.hpp:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/videostab/deblurring.hpp:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/videostab/wobble_suppression.hpp:
+
+/home/kumarshreyak/opencv/Android/OpenCV-android-sdk/sdk/native/jni/include/opencv2/videostab/ring_buffer.hpp:
+
+jni/ORB_SLAM2/include/KeyFrameDatabase.h:
+
+/home/kumarshreyak/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/mutex:
+
+jni/ORB_SLAM2/include/LocalMapping.h:
+
+jni/ORB_SLAM2/include/LoopClosing.h:
+
+/home/kumarshreyak/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/thread:
+
+jni/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:
+
+jni/Thirdparty/g2o/g2o/types/../core/base_vertex.h:
+
+jni/Thirdparty/g2o/g2o/types/../core/optimizable_graph.h:
+
+jni/Thirdparty/g2o/g2o/types/../core/openmp_mutex.h:
+
+jni/Thirdparty/g2o/g2o/types/../core/../../config.h:
+
+jni/Thirdparty/g2o/g2o/types/../core/hyper_graph.h:
+
+/home/kumarshreyak/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/bitset:
+
+/home/kumarshreyak/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/tr1/unordered_map:
+
+jni/Thirdparty/g2o/g2o/types/../core/parameter.h:
+
+jni/Thirdparty/g2o/g2o/types/../core/parameter_container.h:
+
+jni/Thirdparty/g2o/g2o/types/../core/jacobian_workspace.h:
+
+jni/Thirdparty/eigen3/Eigen/Core:
+
+jni/Thirdparty/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Core/util/Macros.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Core/util/MKL_support.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Core/util/Constants.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Core/util/Meta.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Core/util/ForwardDeclarations.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Core/util/StaticAssert.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Core/util/XprHelper.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Core/util/Memory.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Core/NumTraits.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Core/MathFunctions.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Core/SpecialFunctions.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Core/GenericPacketMath.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Core/arch/NEON/MathFunctions.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Core/arch/NEON/Complex.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Core/arch/Default/Settings.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Core/functors/BinaryFunctors.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Core/functors/UnaryFunctors.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Core/functors/NullaryFunctors.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Core/functors/StlFunctors.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Core/functors/AssignmentFunctors.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Core/DenseCoeffsBase.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Core/DenseBase.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Core/../plugins/BlockMethods.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Core/MatrixBase.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Core/../plugins/CommonCwiseUnaryOps.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Core/../plugins/CommonCwiseBinaryOps.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Core/../plugins/MatrixCwiseUnaryOps.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Core/../plugins/MatrixCwiseBinaryOps.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Core/EigenBase.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Core/Product.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Core/CoreEvaluators.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Core/AssignEvaluator.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Core/Assign.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Core/ArrayBase.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Core/../plugins/ArrayCwiseBinaryOps.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Core/util/BlasUtil.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Core/DenseStorage.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Core/NestByValue.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Core/ReturnByValue.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Core/NoAlias.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Core/PlainObjectBase.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Core/Matrix.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Core/Array.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Core/CwiseBinaryOp.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Core/CwiseUnaryOp.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Core/CwiseNullaryOp.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Core/CwiseUnaryView.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Core/SelfCwiseBinaryOp.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Core/Dot.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Core/StableNorm.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Core/Stride.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Core/MapBase.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Core/Map.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Core/Ref.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Core/Block.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Core/VectorBlock.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Core/Transpose.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Core/DiagonalMatrix.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Core/Diagonal.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Core/DiagonalProduct.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Core/Redux.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Core/Visitor.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Core/Fuzzy.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Core/IO.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Core/Swap.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Core/CommaInitializer.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Core/GeneralProduct.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Core/Solve.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Core/Inverse.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Core/SolverBase.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Core/PermutationMatrix.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Core/Transpositions.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Core/TriangularMatrix.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Core/SelfAdjointView.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Core/products/GeneralBlockPanelKernel.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Core/products/Parallelizer.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Core/ProductEvaluators.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Core/products/GeneralMatrixVector.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Core/products/GeneralMatrixMatrix.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Core/SolveTriangular.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Core/products/GeneralMatrixMatrixTriangular.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Core/products/SelfadjointMatrixVector.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Core/products/SelfadjointMatrixMatrix.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Core/products/SelfadjointProduct.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Core/products/SelfadjointRank2Update.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Core/products/TriangularMatrixVector.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Core/products/TriangularMatrixMatrix.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Core/products/TriangularSolverMatrix.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Core/products/TriangularSolverVector.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Core/BandMatrix.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Core/CoreIterators.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Core/BooleanRedux.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Core/Select.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Core/VectorwiseOp.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Core/Random.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Core/Replicate.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Core/Reverse.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Core/ArrayWrapper.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Core/GlobalFunctions.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Core/util/ReenableStupidWarnings.h:
+
+jni/Thirdparty/eigen3/Eigen/StdVector:
+
+jni/Thirdparty/eigen3/Eigen/Core:
+
+jni/Thirdparty/eigen3/Eigen/src/StlSupport/StdVector.h:
+
+jni/Thirdparty/eigen3/Eigen/src/StlSupport/details.h:
+
+jni/Thirdparty/g2o/g2o/types/../core/../stuff/macros.h:
+
+jni/Thirdparty/g2o/g2o/types/../core/creators.h:
+
+jni/Thirdparty/eigen3/Eigen/Dense:
+
+jni/Thirdparty/eigen3/Eigen/LU:
+
+jni/Thirdparty/eigen3/Eigen/src/misc/Kernel.h:
+
+jni/Thirdparty/eigen3/Eigen/src/misc/Image.h:
+
+jni/Thirdparty/eigen3/Eigen/src/LU/FullPivLU.h:
+
+jni/Thirdparty/eigen3/Eigen/src/LU/PartialPivLU.h:
+
+jni/Thirdparty/eigen3/Eigen/src/LU/Determinant.h:
+
+jni/Thirdparty/eigen3/Eigen/src/LU/InverseImpl.h:
+
+jni/Thirdparty/eigen3/Eigen/Cholesky:
+
+jni/Thirdparty/eigen3/Eigen/src/Cholesky/LLT.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Cholesky/LDLT.h:
+
+jni/Thirdparty/eigen3/Eigen/QR:
+
+jni/Thirdparty/eigen3/Eigen/Jacobi:
+
+jni/Thirdparty/eigen3/Eigen/src/Jacobi/Jacobi.h:
+
+jni/Thirdparty/eigen3/Eigen/Householder:
+
+jni/Thirdparty/eigen3/Eigen/src/Householder/Householder.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Householder/HouseholderSequence.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Householder/BlockHouseholder.h:
+
+jni/Thirdparty/eigen3/Eigen/src/QR/HouseholderQR.h:
+
+jni/Thirdparty/eigen3/Eigen/src/QR/FullPivHouseholderQR.h:
+
+jni/Thirdparty/eigen3/Eigen/src/QR/ColPivHouseholderQR.h:
+
+jni/Thirdparty/eigen3/Eigen/SVD:
+
+jni/Thirdparty/eigen3/Eigen/src/SVD/UpperBidiagonalization.h:
+
+jni/Thirdparty/eigen3/Eigen/src/SVD/SVDBase.h:
+
+jni/Thirdparty/eigen3/Eigen/src/SVD/JacobiSVD.h:
+
+jni/Thirdparty/eigen3/Eigen/src/SVD/BDCSVD.h:
+
+jni/Thirdparty/eigen3/Eigen/Geometry:
+
+jni/Thirdparty/eigen3/Eigen/src/Geometry/OrthoMethods.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Geometry/EulerAngles.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Geometry/Homogeneous.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Geometry/RotationBase.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Geometry/Rotation2D.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Geometry/Quaternion.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Geometry/AngleAxis.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Geometry/Transform.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Geometry/Translation.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Geometry/Scaling.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Geometry/Hyperplane.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Geometry/ParametrizedLine.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Geometry/AlignedBox.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Geometry/Umeyama.h:
+
+jni/Thirdparty/eigen3/Eigen/Eigenvalues:
+
+jni/Thirdparty/eigen3/Eigen/src/Eigenvalues/Tridiagonalization.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Eigenvalues/RealSchur.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Eigenvalues/./HessenbergDecomposition.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Eigenvalues/EigenSolver.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Eigenvalues/./RealSchur.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Eigenvalues/SelfAdjointEigenSolver.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Eigenvalues/./Tridiagonalization.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Eigenvalues/GeneralizedSelfAdjointEigenSolver.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Eigenvalues/HessenbergDecomposition.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Eigenvalues/ComplexSchur.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Eigenvalues/ComplexEigenSolver.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Eigenvalues/./ComplexSchur.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Eigenvalues/RealQZ.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Eigenvalues/GeneralizedEigenSolver.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Eigenvalues/./RealQZ.h:
+
+jni/Thirdparty/eigen3/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h:
+
+jni/Thirdparty/eigen3/Eigen/Cholesky:
+
+/home/kumarshreyak/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/stack:
+
+jni/Thirdparty/g2o/g2o/types/../core/base_vertex.hpp:
+
+jni/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:
+
+jni/Thirdparty/g2o/g2o/types/../core/base_edge.h:
+
+jni/Thirdparty/g2o/g2o/types/../core/robust_kernel.h:
+
+/home/kumarshreyak/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/tr1/memory:
+
+jni/Thirdparty/g2o/g2o/types/../core/base_binary_edge.hpp:
+
+jni/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:
+
+jni/Thirdparty/g2o/g2o/types/../core/base_unary_edge.h:
+
+jni/Thirdparty/g2o/g2o/types/../core/base_unary_edge.hpp:
+
+jni/Thirdparty/g2o/g2o/types/se3_ops.h:
+
+jni/Thirdparty/eigen3/Eigen/Geometry:
+
+jni/Thirdparty/g2o/g2o/types/se3_ops.hpp:
+
+jni/Thirdparty/g2o/g2o/types/se3quat.h:
+
+jni/Thirdparty/g2o/g2o/types/types_sba.h:
+
+jni/Thirdparty/g2o/g2o/types/sim3.h:
+
+jni/ORB_SLAM2/include/Initializer.h:
+
+jni/ORB_SLAM2/include/MapDrawer.h:
+
+jni/ORB_SLAM2/include/System.h:

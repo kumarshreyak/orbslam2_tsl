@@ -341,7 +341,7 @@ class AsyncServiceHelper
     {
         boolean result = true;
 
-        Log.d(TAG, "Trying to load library " + AbsPath);
+        Log.d(TAG, "Trying to load library (weird)" + AbsPath);
         try
         {
             System.load(AbsPath);

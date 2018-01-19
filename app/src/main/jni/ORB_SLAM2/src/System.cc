@@ -74,12 +74,14 @@ System::System(const string &strVocFile, const string &strSettingsFile, const eS
     if(!fsSettings.isOpened())
     {
        cerr << "Failed to open settings file at: " << strSettingsFile << endl;
+        LOG("Failed to open settings file at: " + strSettingsFile);
        exit(-1);
     }
 
 
     //Load ORB Vocabulary
     cout << endl << "Loading ORB Vocabulary. This could take a while..." << endl;
+    LOG("Loading ORB Vocabulary. This could take a while...");
 
     mpVocabulary = new ORBVocabulary();
     bool bVocLoad = mpVocabulary->loadFromTextFile(strVocFile);
@@ -87,32 +89,41 @@ System::System(const string &strVocFile, const string &strSettingsFile, const eS
     {
         cerr << "Wrong path to vocabulary. " << endl;
         cerr << "Falied to open at: " << strVocFile << endl;
+        LOG("Wrong path to vocalbulary, Failed to open at :" + strVocFile);
         exit(-1);
     }
     cout << "Vocabulary loaded!" << endl << endl;
+    LOG("Vocabulary Loaded");
 
     //Create KeyFrame Database
     mpKeyFrameDatabase = new KeyFrameDatabase(*mpVocabulary);
+    LOG("Create KeyFrame Database");
 
     //Create the Map
     mpMap = new Map();
+    LOG("Create the Map");
 
     //Create Drawers. These are used by the Viewer
     mpFrameDrawer = new FrameDrawer(mpMap);
     mpMapDrawer = new MapDrawer(mpMap, strSettingsFile);
+    LOG("Create Drawers");
 
     //Initialize the Tracking thread
     //(it will live in the main thread of execution, the one that called this constructor)
     mpTracker = new Tracking(this, mpVocabulary, mpFrameDrawer, mpMapDrawer,
                              mpMap, mpKeyFrameDatabase, strSettingsFile, mSensor);
+    LOG("Initialize the Tracking thread");
 
     //Initialize the Local Mapping thread and launch
     mpLocalMapper = new LocalMapping(mpMap, mSensor==MONOCULAR);
     mptLocalMapping = new thread(&ORB_SLAM2::LocalMapping::Run,mpLocalMapper);
+    LOG("Initialize the Local Mapping thread and launch");
 
     //Initialize the Loop Closing thread and launch
     mpLoopCloser = new LoopClosing(mpMap, mpKeyFrameDatabase, mpVocabulary, mSensor!=MONOCULAR);
     mptLoopClosing = new thread(&ORB_SLAM2::LoopClosing::Run, mpLoopCloser);
+    LOG("Initialize the Loop Closing thread and launch");
+
 
     //Initialize the Viewer thread and launch
     mpViewer = new Viewer(this, mpFrameDrawer,mpMapDrawer,mpTracker,strSettingsFile);
@@ -120,16 +131,22 @@ System::System(const string &strVocFile, const string &strSettingsFile, const eS
         mptViewer = new thread(&Viewer::Run, mpViewer);
 
     mpTracker->SetViewer(mpViewer);
+    LOG("Initialize the Viewer thread and launch");
+
 
     //Set pointers between threads
     mpTracker->SetLocalMapper(mpLocalMapper);
     mpTracker->SetLoopClosing(mpLoopCloser);
+    LOG("Set pointers between threads");
+
 
     mpLocalMapper->SetTracker(mpTracker);
     mpLocalMapper->SetLoopCloser(mpLoopCloser);
+    LOG("Setting tracker and loop closer");
 
     mpLoopCloser->SetTracker(mpTracker);
     mpLoopCloser->SetLocalMapper(mpLocalMapper);
+    LOG("Set tracker and local mapper");
 
     //maxiaoba
     Reb = cv::Mat::eye(3,3,CV_32F);
@@ -144,6 +161,7 @@ System::System(const string &strVocFile, const string &strSettingsFile, const eS
     Rbc.at<float>(2,0) = 0;
     Rbc.at<float>(2,1) = 0;
     Rbc.at<float>(2,2) = -1;
+
 }
 
 //maxiaoba

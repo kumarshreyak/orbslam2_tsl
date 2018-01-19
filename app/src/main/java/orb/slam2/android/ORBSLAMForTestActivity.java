@@ -297,6 +297,8 @@ public class ORBSLAMForTestActivity extends Activity implements
                 @Override
                 public void run() {
                     // TODO Auto-generated method stub
+                    Log.e("information==========>",
+                            "init is really close!");
                     OrbNdkHelper.initSystemWithParameters(vocPath,
                             calibrationPath);
                     Log.e("information==========>",
@@ -535,7 +537,7 @@ public class ORBSLAMForTestActivity extends Activity implements
         super.onResume();
         mGLSurfaceView.onResume();
 
-        OpenCVLoader.initAsync(OpenCVLoader.OPENCV_VERSION_2_4_3, this, mLoaderCallback);
+        OpenCVLoader.initAsync(OpenCVLoader.OPENCV_VERSION, this, mLoaderCallback);
        // mSensorManager.registerListener(this, linearAccelerometer, 200000);
         mSensorManager.registerListener(this, linearAccelerometer, SensorManager.SENSOR_DELAY_FASTEST);
         mSensorManager.registerListener(this, gravitySensor, 50000);

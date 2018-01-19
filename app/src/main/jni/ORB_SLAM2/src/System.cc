@@ -45,6 +45,7 @@ System::System(const string &strVocFile, const string &strSettingsFile, const eS
 {
 	_instance = this;
 	LOG("ORB_initiate");
+	LOG("You wrote this log message !! :)");
     cout << endl <<
     "ORB-SLAM2 Copyright (C) 2014-2016 Raul Mur-Artal, University of Zaragoza." << endl <<
     "This program comes with ABSOLUTELY NO WARRANTY;" << endl  <<
@@ -52,13 +53,21 @@ System::System(const string &strVocFile, const string &strSettingsFile, const eS
     "under certain conditions. See LICENSE.txt." << endl << endl;
 
     cout << "Input sensor was set to: ";
+    LOG("Input sensor was set to: ");
 
-    if(mSensor==MONOCULAR)
-        cout << "Monocular" << endl;
-    else if(mSensor==STEREO)
+    if(mSensor==MONOCULAR){
+         cout << "Monocular" << endl;
+         LOG("Monocular");
+    }
+    else if(mSensor==STEREO){
         cout << "Stereo" << endl;
-    else if(mSensor==RGBD)
+        LOG("Stereo");
+    }
+    else if(mSensor==RGBD){
         cout << "RGB-D" << endl;
+        LOG("RGB-D");
+    }
+
 
     //Check settings file
     cv::FileStorage fsSettings(strSettingsFile.c_str(), cv::FileStorage::READ);

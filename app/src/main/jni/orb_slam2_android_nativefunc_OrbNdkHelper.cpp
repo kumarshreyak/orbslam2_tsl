@@ -28,9 +28,12 @@ JNIEXPORT void JNICALL Java_orb_slam2_android_nativefunc_OrbNdkHelper_initSystem
 (JNIEnv * env, jclass cls, jstring VOCPath, jstring calibrationPath) {
 	const char *calChar = env->GetStringUTFChars(calibrationPath, JNI_FALSE);
 	const char *vocChar = env->GetStringUTFChars(VOCPath, JNI_FALSE);
+
 	// use your string
 	std::string voc_string(vocChar);
 	std::string cal_string(calChar);
+	// Explicitly setting path
+	//voc_string = "/home/kumarshreyak/ORB_SLAM2/Vocabulary/ORBvoc.txt";
 	env->GetJavaVM(&jvm);
 	jvm->AttachCurrentThread(&env, NULL);
 	s=new ORB_SLAM2::System(voc_string,cal_string,ORB_SLAM2::System::MONOCULAR,true);

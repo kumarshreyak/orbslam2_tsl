@@ -26,6 +26,7 @@
 //#include <pangolin/pangolin.h>
 #include <iomanip>
 #include <android/log.h>
+#include <string>
 #define LOG_TAG "ORB_SLAM_SYSTEM"
 
 #define LOG(...) __android_log_print(ANDROID_LOG_ERROR,LOG_TAG, __VA_ARGS__)
@@ -74,7 +75,7 @@ System::System(const string &strVocFile, const string &strSettingsFile, const eS
     if(!fsSettings.isOpened())
     {
        cerr << "Failed to open settings file at: " << strSettingsFile << endl;
-        LOG("Failed to open settings file at: " + strSettingsFile);
+        LOG("Failed to open settings file at: ");
        exit(-1);
     }
 
@@ -89,7 +90,7 @@ System::System(const string &strVocFile, const string &strSettingsFile, const eS
     {
         cerr << "Wrong path to vocabulary. " << endl;
         cerr << "Falied to open at: " << strVocFile << endl;
-        LOG("Wrong path to vocalbulary, Failed to open at :" + strVocFile);
+        LOG("Wrong path to vocalbulary, Failed to open at : %s", strVocFile.c_str());
         exit(-1);
     }
     cout << "Vocabulary loaded!" << endl << endl;

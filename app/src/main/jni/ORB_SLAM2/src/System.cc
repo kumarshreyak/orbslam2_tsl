@@ -186,6 +186,7 @@ cv::Mat System::TrackStereo(const cv::Mat &imLeft, const cv::Mat &imRight, const
     if(mSensor!=STEREO)
     {
         cerr << "ERROR: you called TrackStereo but input sensor was not set to STEREO." << endl;
+        LOG("ERROR: you called TrackStereo but input sensor was not set to STEREO.");
         exit(-1);
     }   
 
@@ -231,6 +232,7 @@ cv::Mat System::TrackRGBD(const cv::Mat &im, const cv::Mat &depthmap, const doub
     if(mSensor!=RGBD)
     {
         cerr << "ERROR: you called TrackRGBD but input sensor was not set to RGBD." << endl;
+        LOG("ERROR: you called TrackRGBD but input sensor was not set to RGBD");
         exit(-1);
     }    
 
@@ -276,6 +278,7 @@ cv::Mat System::TrackMonocular(const cv::Mat &im, const double &timestamp)
     if(mSensor!=MONOCULAR)
     {
     	LOG("ERROR: you called TrackMonocular but input sensor was not set to Monocular." );
+    	LOG("ERROR: you called TrackMonocular but input sensor was not set to Monocular.");
         exit(-1);
     }
 

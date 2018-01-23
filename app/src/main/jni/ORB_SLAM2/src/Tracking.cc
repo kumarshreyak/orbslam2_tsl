@@ -52,6 +52,7 @@ Tracking::Tracking(System *pSys, ORBVocabulary* pVoc, FrameDrawer *pFrameDrawer,
     mpFrameDrawer(pFrameDrawer), mpMapDrawer(pMapDrawer), mpMap(pMap), mnLastRelocFrameId(0)
 {
     // Load camera parameters from settings file
+    LOG("Load camera parameters from settings file");
 
     cv::FileStorage fSettings(strSettingPath, cv::FileStorage::READ);
     float fx = fSettings["Camera.fx"];
@@ -86,6 +87,7 @@ Tracking::Tracking(System *pSys, ORBVocabulary* pVoc, FrameDrawer *pFrameDrawer,
         fps=30;
 
     // Max/Min Frames to insert keyframes and to check relocalisation
+    LOG("Max/Min Frames to insert keyframes and to check relocalisation");
     mMinFrames = 0;
     mMaxFrames = fps;
 
@@ -112,6 +114,7 @@ Tracking::Tracking(System *pSys, ORBVocabulary* pVoc, FrameDrawer *pFrameDrawer,
         cout << "- color order: BGR (ignored if grayscale)" << endl;
 
     // Load ORB parameters
+    LOG("Load ORB Parameters");
 
     int nFeatures = fSettings["ORBextractor.nFeatures"];
     float fScaleFactor = fSettings["ORBextractor.scaleFactor"];
@@ -656,8 +659,10 @@ void Tracking::MonocularInitialization()
     if(!mpInitializer)
     {
         // Set Reference Frame
+        LOG("Setting reference frame");
         if(mCurrentFrame.mvKeys.size()>100)
         {
+            LOG("mCurrentFrame is okay");
             mInitialFrame = Frame(mCurrentFrame);
             mLastFrame = Frame(mCurrentFrame);
             mvbPrevMatched.resize(mCurrentFrame.mvKeysUn.size());
@@ -673,10 +678,15 @@ void Tracking::MonocularInitialization()
 
             return;
         }
+        else
+        {
+            LOG("something is wrong with mCurrentFrame");
+        }
     }
     else
     {
-        // Try to initialize
+        // Try to initialize'
+        LOG("Trying to do Monocular initialization");
         if((int)mCurrentFrame.mvKeys.size()<=100)
         {
             delete mpInitializer;
@@ -686,10 +696,12 @@ void Tracking::MonocularInitialization()
         }
 
         // Find correspondences
+        LOG("Trying to find correspondences");
         ORBmatcher matcher(0.9,true);
         int nmatches = matcher.SearchForInitialization(mInitialFrame,mCurrentFrame,mvbPrevMatched,mvIniMatches,100);
 
         // Check if there are enough correspondences
+        LOG("Check if there are enough correspondences");
         if(nmatches<100)
         {
             delete mpInitializer;
@@ -722,6 +734,7 @@ void Tracking::MonocularInitialization()
             CreateInitialMapMonocular();
 
         }
+        LOG("Monocular Initialization is ending (without going into the if statement)");
     }
 }
 
@@ -1687,6 +1700,7 @@ void Tracking::ChangeCalibration(const string &strSettingPath)
 void Tracking::InformOnlyTracking(const bool &flag)
 {
     mbOnlyTracking = flag;
+    LOG("mbOnlyTracking set to true in tracking.cc ");
 }
 
 

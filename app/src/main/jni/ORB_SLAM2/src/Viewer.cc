@@ -187,8 +187,8 @@ void Viewer::drawGL(){
     mpMapDrawer->DrawCurrentCamera(mpMapDrawer->GetCurrentOpenGLCameraMatrix());
     LOG("Viewer drawGL ---------------> STEP 3 -- DONE");
 
-    // mpMapDrawer->DrawKeyFrames(false,true);
-    // mpMapDrawer->DrawMapPoints();
+     mpMapDrawer->DrawKeyFrames(false,true);
+     mpMapDrawer->DrawMapPoints();
 
 }
 

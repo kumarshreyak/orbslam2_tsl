@@ -24,14 +24,21 @@
 
 #include "Optimizer.h"
 #include "ORBmatcher.h"
+#include <android/log.h>
+
 
 #include<thread>
+
+#define LOG_TAG "ORB_SLAM_TRACK"
+#define LOG(...) __android_log_print(ANDROID_LOG_ERROR,LOG_TAG, __VA_ARGS__)
+
 
 namespace ORB_SLAM2
 {
 
 Initializer::Initializer(const Frame &ReferenceFrame, float sigma, int iterations)
 {
+    LOG("Initializer constructer begins");
     mK = ReferenceFrame.mK.clone();
 
     mvKeys1 = ReferenceFrame.mvKeysUn;
@@ -39,6 +46,7 @@ Initializer::Initializer(const Frame &ReferenceFrame, float sigma, int iteration
     mSigma = sigma;
     mSigma2 = sigma*sigma;
     mMaxIterations = iterations;
+    LOG("Initializer constructer ends");
 }
 
 bool Initializer::Initialize(const Frame &CurrentFrame, const vector<int> &vMatches12, cv::Mat &R21, cv::Mat &t21,

@@ -324,6 +324,7 @@ void System::ActivateLocalizationMode()
 {
     unique_lock<mutex> lock(mMutexMode);
     mbActivateLocalizationMode = true;
+    LOG("Set mbActivateLocalizationMode = true");
 }
 
 void System::DeactivateLocalizationMode()

@@ -10,6 +10,7 @@
 #include<System.h>
 #include<math.h>
 #include<Converter.h>
+#include<bits/stdc++.h>
 using namespace cv;
 #include <android/log.h>
 #define LOG_TAG "ORB_SLAM_SYSTEM"
@@ -50,13 +51,17 @@ JNIEXPORT void JNICALL Java_orb_slam2_android_nativefunc_OrbNdkHelper_initSystem
 JNIEXPORT jintArray JNICALL Java_orb_slam2_android_nativefunc_OrbNdkHelper_startCurrentORB(
 		JNIEnv * env, jclass cls, jdouble curTimeStamp, jintArray buf, jint w,
 		jint h) {
+	LOG("started Java_orb_slam2_android_nativefunc_OrbNdkHelper_startCurrentORB function");
 	jint *cbuf;
 	cbuf = env->GetIntArrayElements(buf, false);
 	if (cbuf == NULL) {
+	    LOG("cbuf was NULL; returned 0");
 		return 0;
 	}
+	LOG("cbuf = %d %d %d %d", cbuf[0], cbuf[1], cbuf[10], cbuf[200]);
 	int size = w * h;
-	cv::Mat myimg(h, w, CV_8UC4, (unsigned char*) cbuf);
+	cv::Mat myimg = cv::Mat(h, w, CV_8UC4, cbuf);
+	LOG("myimg = %f", myimg.at<float>(200,200));
 	cv::Mat ima = s->TrackMonocular(myimg, curTimeStamp);
 	jintArray resultArray = env->NewIntArray(ima.rows * ima.cols);
 	jint *resultPtr;
@@ -185,6 +190,7 @@ JNIEXPORT jfloatArray JNICALL Java_orb_slam2_android_nativefunc_OrbNdkHelper_sta
 //maxiaoba
 JNIEXPORT void JNICALL Java_orb_slam2_android_nativefunc_OrbNdkHelper_trackOnly
   (JNIEnv *env, jclass cls) {
+        LOG("Activated Localization Mode");
         s->ActivateLocalizationMode();
   }
 JNIEXPORT jfloatArray JNICALL Java_orb_slam2_android_nativefunc_OrbNdkHelper_startCurrentORBForCamera2

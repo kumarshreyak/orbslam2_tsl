@@ -130,12 +130,13 @@ public class ORBSLAMForDataSetActivity extends Activity implements OnClickListen
         									}
         								});
         								timestamp = Double.parseDouble(file.getName()
-        										.substring(0,
+        										.substring(4,
         												file.getName().length() - 5));
         								// TODO Auto-generated method stub
         								int w = tmp.getWidth(), h = tmp.getHeight();
         								int[] pix = new int[w * h];
         								tmp.getPixels(pix, 0, w, 0, 0, w, h);
+
 
         								int[] resultInt = OrbNdkHelper.startCurrentORB(
         										timestamp, pix, w, h);
@@ -143,6 +144,7 @@ public class ORBSLAMForDataSetActivity extends Activity implements OnClickListen
         										Config.RGB_565);
         								resultImg
         										.setPixels(resultInt, 0, w, 0, 0, w, h);
+										Log.e("asdada", "asdads");
         								runOnUiThread(new Runnable() {
         									@Override
         									public void run() {

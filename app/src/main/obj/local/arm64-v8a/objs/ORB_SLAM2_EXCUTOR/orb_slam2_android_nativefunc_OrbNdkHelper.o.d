@@ -365,7 +365,28 @@ obj/local/arm64-v8a/objs/ORB_SLAM2_EXCUTOR/orb_slam2_android_nativefunc_OrbNdkHe
  jni/Thirdparty/g2o/g2o/types/types_sba.h \
  jni/Thirdparty/g2o/g2o/types/sim3.h jni/ORB_SLAM2/include/Initializer.h \
  jni/ORB_SLAM2/include/Converter.h \
- jni/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h
+ jni/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h \
+ /home/kumarshreyak/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/include/bits/stdc++.h \
+ /home/kumarshreyak/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/ciso646 \
+ /home/kumarshreyak/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/csetjmp \
+ /home/kumarshreyak/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/csignal \
+ /home/kumarshreyak/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/cstdarg \
+ /home/kumarshreyak/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/ccomplex \
+ /home/kumarshreyak/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/cfenv \
+ /home/kumarshreyak/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/cinttypes \
+ /home/kumarshreyak/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/cstdalign \
+ /home/kumarshreyak/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/cstdbool \
+ /home/kumarshreyak/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/ctgmath \
+ /home/kumarshreyak/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/iterator \
+ /home/kumarshreyak/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/valarray \
+ /home/kumarshreyak/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/atomic \
+ /home/kumarshreyak/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/condition_variable \
+ /home/kumarshreyak/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/forward_list \
+ /home/kumarshreyak/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/future \
+ /home/kumarshreyak/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/regex \
+ /home/kumarshreyak/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/scoped_allocator \
+ /home/kumarshreyak/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/typeindex \
+ /home/kumarshreyak/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/unordered_set
 
 jni/orb_slam2_android_nativefunc_OrbNdkHelper.h:
 
@@ -1114,3 +1135,45 @@ jni/ORB_SLAM2/include/Initializer.h:
 jni/ORB_SLAM2/include/Converter.h:
 
 jni/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:
+
+/home/kumarshreyak/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/include/bits/stdc++.h:
+
+/home/kumarshreyak/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/ciso646:
+
+/home/kumarshreyak/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/csetjmp:
+
+/home/kumarshreyak/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/csignal:
+
+/home/kumarshreyak/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/cstdarg:
+
+/home/kumarshreyak/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/ccomplex:
+
+/home/kumarshreyak/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/cfenv:
+
+/home/kumarshreyak/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/cinttypes:
+
+/home/kumarshreyak/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/cstdalign:
+
+/home/kumarshreyak/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/cstdbool:
+
+/home/kumarshreyak/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/ctgmath:
+
+/home/kumarshreyak/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/iterator:
+
+/home/kumarshreyak/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/valarray:
+
+/home/kumarshreyak/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/atomic:
+
+/home/kumarshreyak/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/condition_variable:
+
+/home/kumarshreyak/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/forward_list:
+
+/home/kumarshreyak/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/future:
+
+/home/kumarshreyak/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/regex:
+
+/home/kumarshreyak/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/scoped_allocator:
+
+/home/kumarshreyak/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/typeindex:
+
+/home/kumarshreyak/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/unordered_set:
